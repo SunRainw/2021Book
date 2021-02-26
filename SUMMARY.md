@@ -2,6 +2,9 @@
 
 * [Introduction](README.md)
 * [JS]
+    * [深浅拷贝]
+        * [浅拷贝](chapter3/1.md)
+        * [深拷贝](chapter3/2.md)
 * [浏览器]
     * [浏览器缓存](chapter1/index.md)
         * [缓存位置](chapter1/1.md)
