@@ -17,4 +17,5 @@
         * [https](chapter2/3.md)
     * [v8引擎]
         * [v8引擎垃圾内存回收](chapter4/1.md)
+        * [v8的编译和解释](chapter4/2.md)
 
