@@ -5,6 +5,9 @@
     * [深浅拷贝]
         * [浅拷贝](chapter3/1.md)
         * [深拷贝](chapter3/2.md)
+    * [防抖和节流(手写)]
+        * [防抖](chapter5/1.md)
+        * [节流](chapter5/2.md)
 * [浏览器]
     * [浏览器缓存](chapter1/index.md)
         * [缓存位置](chapter1/1.md)
@@ -18,4 +21,10 @@
     * [v8引擎]
         * [v8引擎垃圾内存回收](chapter4/1.md)
         * [v8的编译和解释](chapter4/2.md)
+* [计算机网络]
+    * [TCP协议]
+        * [TCP和UDP的区别](chapter6/1.md)
+        * [TCP三次握手](chapter6/2.md)
+        * [TCP四次挥手](chapter6/3.md)
+        * [半连接队列和SYN Flood攻击](chapter6/4.md)
 
