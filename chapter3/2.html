@@ -1,0 +1,896 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>深拷贝 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    [JS]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../chapter7/1.html">
+            
+                <a href="../chapter7/1.html">
+            
+                    
+                    内置类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../chapter7/2.html">
+            
+                <a href="../chapter7/2.html">
+            
+                    
+                    类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                    [typeof和instanceof]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../chapter8/1.html">
+            
+                <a href="../chapter8/1.html">
+            
+                    
+                    typeof
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../chapter8/2.html">
+            
+                <a href="../chapter8/2.html">
+            
+                    
+                    instanceof
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../chapter9/1.html">
+            
+                <a href="../chapter9/1.html">
+            
+                    
+                    普通函数和箭头函数的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" >
+            
+                <span>
+            
+                    
+                    [深浅拷贝]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="1.html">
+            
+                <a href="1.html">
+            
+                    
+                    浅拷贝
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.5.2" data-path="2.html">
+            
+                <a href="2.html">
+            
+                    
+                    深拷贝
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" >
+            
+                <span>
+            
+                    
+                    [防抖和节流(手写)]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" data-path="../chapter5/1.html">
+            
+                <a href="../chapter5/1.html">
+            
+                    
+                    防抖
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" data-path="../chapter5/2.html">
+            
+                <a href="../chapter5/2.html">
+            
+                    
+                    节流
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    [浏览器]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../chapter1/">
+            
+                <a href="../chapter1/">
+            
+                    
+                    浏览器缓存
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../chapter1/1.html">
+            
+                <a href="../chapter1/1.html">
+            
+                    
+                    缓存位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../chapter1/2.html">
+            
+                <a href="../chapter1/2.html">
+            
+                    
+                    缓存策略
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.2.1" data-path="../chapter1/2-1.html">
+            
+                <a href="../chapter1/2-1.html">
+            
+                    
+                    Expires和Cache-Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2.2" data-path="../chapter1/2-2.html">
+            
+                <a href="../chapter1/2-2.html">
+            
+                    
+                    Last-Modified和ETag
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                    [浏览器安全]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../chapter2/1.html">
+            
+                <a href="../chapter2/1.html">
+            
+                    
+                    xss注入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../chapter2/2.html">
+            
+                <a href="../chapter2/2.html">
+            
+                    
+                    CSRF注入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../chapter2/3.html">
+            
+                <a href="../chapter2/3.html">
+            
+                    
+                    https
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" >
+            
+                <span>
+            
+                    
+                    [v8引擎]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../chapter4/1.html">
+            
+                <a href="../chapter4/1.html">
+            
+                    
+                    v8引擎垃圾内存回收
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../chapter4/2.html">
+            
+                <a href="../chapter4/2.html">
+            
+                    
+                    v8的编译和解释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    [计算机网络]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    [TCP协议]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../chapter6/1.html">
+            
+                <a href="../chapter6/1.html">
+            
+                    
+                    TCP和UDP的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../chapter6/2.html">
+            
+                <a href="../chapter6/2.html">
+            
+                    
+                    TCP三次握手
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../chapter6/3.html">
+            
+                <a href="../chapter6/3.html">
+            
+                    
+                    TCP四次挥手
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="../chapter6/4.html">
+            
+                <a href="../chapter6/4.html">
+            
+                    
+                    半连接队列和SYN Flood攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >深拷贝</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6DF1;&#x62F7;&#x8D1D;">&#x6DF1;&#x62F7;&#x8D1D;</h1>
+<h2 id="&#x6982;&#x5FF5;">&#x6982;&#x5FF5;</h2>
+<p>&#x6DF1;&#x62F7;&#x8D1D;&#x662F;&#x5C06;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x4ECE;&#x5185;&#x5B58;&#x4E2D;&#x5B8C;&#x6574;&#x7684;&#x62F7;&#x8D1D;&#x4E00;&#x4EFD;&#xFF0C;&#x4ECE;&#x5806;&#x5185;&#x5B58;&#x4E2D;&#x5F00;&#x8F9F;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x533A;&#x57DF;&#x5B58;&#x653E;&#x65B0;&#x5BF9;&#x8C61;&#xFF0C;&#x4E14;&#x4FEE;&#x6539;&#x65B0;&#x5BF9;&#x8C61;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x5BF9;&#x8C61;&#x3002;&#x65B0;&#x5BF9;&#x8C61;&#x8DDF;&#x539F;&#x5BF9;&#x8C61;&#x4E0D;&#x5171;&#x4EAB;&#x5185;&#x5B58;</p>
+<h2 id="&#x4E3E;&#x4F8B;">&#x4E3E;&#x4F8B;</h2>
+<pre><code class="lang-javaScript"><span class="hljs-keyword">const</span> obj1 = {
+    name: <span class="hljs-string">&quot;sun&quot;</span>,
+    age: <span class="hljs-number">18</span>,
+    favour: [<span class="hljs-string">&quot;ball&quot;</span>, <span class="hljs-string">&quot;games&quot;</span>, <span class="hljs-string">&quot;study&quot;</span>],
+    birthCity: {
+        Province: <span class="hljs-string">&quot;&#x56DB;&#x5DDD;&quot;</span>
+    }
+}
+
+<span class="hljs-comment">// &#x6DF1;&#x62F7;&#x8D1D;</span>
+<span class="hljs-keyword">const</span> obj2 = deepClone(obj1)
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">deepClone</span>(<span class="hljs-params">params</span>) </span>{
+    <span class="hljs-comment">// &#x6DF1;&#x62F7;&#x8D1D;&#x65B9;&#x6CD5;&#xFF0C;&#x540E;&#x7EED;&#x4F1A;&#x5B9E;&#x73B0;</span>
+}
+
+obj2.favour[<span class="hljs-number">0</span>] = <span class="hljs-string">&quot;a&quot;</span>
+<span class="hljs-built_in">console</span>.info(obj1)  <span class="hljs-comment">//  =&gt; obj1.favour = [&quot;ball&quot;, &quot;games&quot;, &quot;study&quot;]</span>
+</code></pre>
+<h2 id="&#x5B9E;&#x73B0;">&#x5B9E;&#x73B0;</h2>
+<ol>
+<li>&#x5BF9;&#x4E8E;&#x6700;&#x7B80;&#x5355;&#x7684;&#x5B9E;&#x73B0;</li>
+</ol>
+<pre><code class="lang-javaScript"><span class="hljs-built_in">JSON</span>.parse(<span class="hljs-built_in">JSON</span>.stringify(obj))
+<span class="hljs-comment">// &#x5B58;&#x5728;&#x5F88;&#x5927;&#x7684;&#x5F0A;&#x7AEF;&#xFF0C;&#x53EA;&#x80FD;&#x62F7;&#x8D1D;&#x7EAF;&#x5BF9;&#x8C61;&#xFF0C;&#x6570;&#x7EC4;&#xFF0C;&#x4E0D;&#x80FD;&#x62F7;&#x8D1D;&#x6B63;&#x5219;&#xFF0C;&#x65E5;&#x671F;&#x5BF9;&#x8C61;&#x7B49;&#xFF0C;&#x65E0;&#x6CD5;&#x5904;&#x7406;&#x5FAA;&#x73AF;&#x5F15;&#x7528;&#x95EE;&#x9898;</span>
+<span class="hljs-comment">// &#x5FAA;&#x73AF;&#x5F15;&#x7528;&#xFF0C;&#x5373;obj.a = obj</span>
+</code></pre>
+<ol>
+<li>&#x7B80;&#x6613;&#x7248;</li>
+</ol>
+<pre><code class="lang-javaScript"><span class="hljs-comment">// &#x4F7F;&#x7528;&#x9012;&#x5F52;&#x6DF1;&#x62F7;&#x8D1D;&#xFF0C;&#x4F46;&#x65E0;&#x6CD5;&#x89E3;&#x51B3;&#x5FAA;&#x73AF;&#x5F15;&#x7528;&#x95EE;&#x9898;</span>
+<span class="hljs-keyword">const</span> deepClone = target =&gt; {
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> target === <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; target !== <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">const</span> cloneTarget = <span class="hljs-built_in">Array</span>.isArray(target) ? [] : {}
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> prop <span class="hljs-keyword">in</span> target) {
+            <span class="hljs-keyword">if</span> (target.hasOwnProperty(prop)) {
+                cloneTarget[prop] = deepClone(target[prop])
+            }
+        }
+        <span class="hljs-keyword">return</span> cloneTarget
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> target
+    }
+}
+</code></pre>
+<ol>
+<li>&#x89E3;&#x51B3;&#x5FAA;&#x73AF;&#x5F15;&#x7528;&#x7248;&#x6DF1;&#x62F7;&#x8D1D;</li>
+</ol>
+<pre><code class="lang-javaScript"><span class="hljs-keyword">const</span> isObject = target =&gt; (<span class="hljs-keyword">typeof</span> target === <span class="hljs-string">&quot;object&quot;</span> || <span class="hljs-keyword">typeof</span> target === <span class="hljs-string">&quot;function&quot;</span>) &amp;&amp; target !== <span class="hljs-literal">null</span>
+
+<span class="hljs-keyword">const</span> deepClone = (target, map = <span class="hljs-keyword">new</span> weakMap()) =&gt; {
+    <span class="hljs-keyword">if</span> (map.get(target)) <span class="hljs-keyword">return</span> target
+
+    <span class="hljs-keyword">if</span> (isObject(target)) {
+        map.set(target, <span class="hljs-literal">true</span>)
+        <span class="hljs-keyword">const</span> cloneTarget = <span class="hljs-built_in">Array</span>.isArray(target) ? [] : {}
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> prop <span class="hljs-keyword">in</span> target) {
+            <span class="hljs-keyword">if</span> (target.hasOwnProperty(prop)) {
+                cloneTarget[prop] = deepClone(target[prop], map)
+            }
+        }
+        <span class="hljs-keyword">return</span> cloneTarget
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> target
+    }
+}
+</code></pre>
+<pre><code class="lang-javaScript"><span class="hljs-keyword">const</span> a = {value: <span class="hljs-number">1</span>}
+a.target = a
+<span class="hljs-keyword">let</span> newA = deepClone(a)
+<span class="hljs-built_in">console</span>.info(newA)<span class="hljs-comment">//{ val: 2, target: { val: 2, target: [Circular] } }</span>
+</code></pre>
+<ol>
+<li>&#x5B8C;&#x6574;&#x7684;&#x6DF1;&#x62F7;&#x8D1D;</li>
+</ol>
+<pre><code class="lang-javaScript"><span class="hljs-comment">// &#x8003;&#x8651;&#x5230;&#x4E86;&#x591A;&#x79CD;&#x60C5;&#x51B5;</span>
+
+<span class="hljs-keyword">const</span> getType = obj =&gt; <span class="hljs-built_in">Object</span>.prototype.toString.call(obj)
+
+<span class="hljs-keyword">const</span> isObject = target =&gt; (<span class="hljs-keyword">typeof</span> target === <span class="hljs-string">&quot;object&quot;</span> || <span class="hljs-keyword">typeof</span> target === <span class="hljs-string">&quot;function&quot;</span>) &amp;&amp; target !== <span class="hljs-literal">null</span>
+
+<span class="hljs-comment">// &#x53EF;&#x4EE5;&#x904D;&#x5386;&#x7684;&#x5BF9;&#x8C61;</span>
+<span class="hljs-keyword">const</span> canTraverse = {
+    <span class="hljs-string">&quot;[object Map]&quot;</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-string">&quot;[object Set]&quot;</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-string">&quot;[object Array]&quot;</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-string">&quot;[object Object]&quot;</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-string">&quot;[object Arguments]&quot;</span>: <span class="hljs-literal">true</span>
+}
+
+<span class="hljs-keyword">const</span> mapTag = <span class="hljs-string">&apos;[object Map]&apos;</span>
+<span class="hljs-keyword">const</span> setTag = <span class="hljs-string">&apos;[object Set]&apos;</span>
+<span class="hljs-keyword">const</span> boolTag = <span class="hljs-string">&apos;[object Boolean]&apos;</span>
+<span class="hljs-keyword">const</span> numberTag = <span class="hljs-string">&apos;[object Number]&apos;</span>
+<span class="hljs-keyword">const</span> stringTag = <span class="hljs-string">&apos;[object String]&apos;</span>
+<span class="hljs-keyword">const</span> symbolTag = <span class="hljs-string">&apos;[object Symbol]&apos;</span>
+<span class="hljs-keyword">const</span> dateTag = <span class="hljs-string">&apos;[object Date]&apos;</span>
+<span class="hljs-keyword">const</span> errorTag = <span class="hljs-string">&apos;[object Error]&apos;</span>
+<span class="hljs-keyword">const</span> regexpTag = <span class="hljs-string">&apos;[object RegExp]&apos;</span>
+<span class="hljs-keyword">const</span> funcTag = <span class="hljs-string">&apos;[object Function]&apos;</span>
+
+<span class="hljs-keyword">const</span> handleRegExp = target =&gt; {
+    <span class="hljs-keyword">const</span> { source, flags } = target
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> target.constructor(source, flags)
+}
+
+<span class="hljs-comment">// &#x5904;&#x7406;&#x51FD;&#x6570;</span>
+<span class="hljs-keyword">const</span> handleFunc = func =&gt; {
+    <span class="hljs-comment">// &#x7BAD;&#x5934;&#x51FD;&#x6570;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;&#x81EA;&#x8EAB;&#xFF0C;&#x6839;&#x636E;&#x539F;&#x578B;&#x5224;&#x65AD;&#x662F;&#x5426;&#x4E3A;&#x7BAD;&#x5934;&#x51FD;&#x6570;</span>
+    <span class="hljs-keyword">if</span> (!func.prototype) <span class="hljs-keyword">return</span> func
+    <span class="hljs-keyword">const</span> bodyReg = <span class="hljs-regexp">/(?&lt;={)(.|\n)+(?=)})/m</span>
+    <span class="hljs-keyword">const</span> paramReg = <span class="hljs-regexp">/(?&lt;=\().+(?=\)\s+{)/</span>
+    <span class="hljs-keyword">const</span> funcString = func.toString()
+    <span class="hljs-keyword">const</span> param = paramReg.exec(funcString)
+    <span class="hljs-keyword">const</span> body = bodyReg.exec(funcString)
+    <span class="hljs-keyword">if</span> (!body) <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>
+    <span class="hljs-keyword">if</span> (param) {
+        <span class="hljs-keyword">const</span> paramArr = param[<span class="hljs-number">0</span>].split(<span class="hljs-string">&apos;,&apos;</span>)
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Function</span>(...paramArr, body[<span class="hljs-number">0</span>])
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Function</span>(body[<span class="hljs-number">0</span>])
+    }
+}
+
+<span class="hljs-keyword">const</span> handleNotTraverse = (target, tag) =&gt; {
+  <span class="hljs-keyword">const</span> Ctor = target.constructor;
+  <span class="hljs-keyword">switch</span>(tag) {
+    <span class="hljs-keyword">case</span> boolTag:
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Object</span>(<span class="hljs-built_in">Boolean</span>.prototype.valueOf.call(target));
+    <span class="hljs-keyword">case</span> numberTag:
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Object</span>(<span class="hljs-built_in">Number</span>.prototype.valueOf.call(target));
+    <span class="hljs-keyword">case</span> stringTag:
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Object</span>(<span class="hljs-built_in">String</span>.prototype.valueOf.call(target));
+    <span class="hljs-keyword">case</span> symbolTag:
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Object</span>(<span class="hljs-built_in">Symbol</span>.prototype.valueOf.call(target));
+    <span class="hljs-keyword">case</span> errorTag: 
+    <span class="hljs-keyword">case</span> dateTag:
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Ctor(target);
+    <span class="hljs-keyword">case</span> regexpTag:
+      <span class="hljs-keyword">return</span> handleRegExp(target);
+    <span class="hljs-keyword">case</span> funcTag:
+      <span class="hljs-keyword">return</span> handleFunc(target);
+    <span class="hljs-keyword">default</span>:
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Ctor(target);
+  }
+}
+
+<span class="hljs-keyword">const</span> deepClone = (target, map = <span class="hljs-keyword">new</span> <span class="hljs-built_in">WeakMap</span>()) =&gt; {
+  <span class="hljs-keyword">if</span>(!isObject(target)) 
+    <span class="hljs-keyword">return</span> target;
+  <span class="hljs-keyword">let</span> type = getType(target);
+  <span class="hljs-keyword">let</span> cloneTarget;
+  <span class="hljs-keyword">if</span>(!canTraverse[type]) {
+    <span class="hljs-comment">// &#x5904;&#x7406;&#x4E0D;&#x80FD;&#x904D;&#x5386;&#x7684;&#x5BF9;&#x8C61;</span>
+    <span class="hljs-keyword">return</span> handleNotTraverse(target, type);
+  }<span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// &#x8FD9;&#x6CE2;&#x64CD;&#x4F5C;&#x76F8;&#x5F53;&#x5173;&#x952E;&#xFF0C;&#x53EF;&#x4EE5;&#x4FDD;&#x8BC1;&#x5BF9;&#x8C61;&#x7684;&#x539F;&#x578B;&#x4E0D;&#x4E22;&#x5931;&#xFF01;</span>
+    <span class="hljs-keyword">let</span> ctor = target.constructor;
+    cloneTarget = <span class="hljs-keyword">new</span> ctor();
+  }
+
+  <span class="hljs-keyword">if</span>(map.get(target)) 
+    <span class="hljs-keyword">return</span> target;
+  map.set(target, <span class="hljs-literal">true</span>);
+
+  <span class="hljs-keyword">if</span>(type === mapTag) {
+    <span class="hljs-comment">//&#x5904;&#x7406;Map</span>
+    target.forEach((item, key) =&gt; {
+      cloneTarget.set(deepClone(key, map), deepClone(item, map));
+    })
+  }
+
+  <span class="hljs-keyword">if</span>(type === setTag) {
+    <span class="hljs-comment">//&#x5904;&#x7406;Set</span>
+    target.forEach(item =&gt; {
+      cloneTarget.add(deepClone(item, map));
+    })
+  }
+
+  <span class="hljs-comment">// &#x5904;&#x7406;&#x6570;&#x7EC4;&#x548C;&#x5BF9;&#x8C61;</span>
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> prop <span class="hljs-keyword">in</span> target) {
+    <span class="hljs-keyword">if</span> (target.hasOwnProperty(prop)) {
+        cloneTarget[prop] = deepClone(target[prop], map);
+    }
+  }
+  <span class="hljs-keyword">return</span> cloneTarget;
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 浅拷贝">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"深拷贝","level":"1.2.5.2","depth":3,"next":{"title":"[防抖和节流(手写)]","level":"1.2.6","depth":2,"ref":"","articles":[{"title":"防抖","level":"1.2.6.1","depth":3,"path":"chapter5/1.md","ref":"chapter5/1.md","articles":[]},{"title":"节流","level":"1.2.6.2","depth":3,"path":"chapter5/2.md","ref":"chapter5/2.md","articles":[]}]},"previous":{"title":"浅拷贝","level":"1.2.5.1","depth":3,"path":"chapter3/1.md","ref":"chapter3/1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3/2.md","mtime":"2021-03-03T13:59:16.836Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-03T15:17:54.515Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
