@@ -2,6 +2,12 @@
 
 * [Introduction](README.md)
 * [JS]
+    * [内置类型](chapter7/1.md)
+    * [类型转换](chapter7/2.md)
+    * [typeof和instanceof]
+        * [typeof](chapter8/1.md)
+        * [instanceof](chapter8/2.md)
+    * [普通函数和箭头函数的区别](chapter9/1.md)
     * [深浅拷贝]
         * [浅拷贝](chapter3/1.md)
         * [深拷贝](chapter3/2.md)
